@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-06T07:27:35 EST" name="Surefire suite" finished-at="2022-11-06T07:27:50 EST" duration-ms="15256">
+  <suite started-at="2022-11-06T08:05:18 EST" name="Surefire suite" finished-at="2022-11-06T08:05:31 EST" duration-ms="13119">
     <groups>
     </groups>
-    <test started-at="2022-11-06T07:27:35 EST" name="Surefire test" finished-at="2022-11-06T07:27:50 EST" duration-ms="15256">
+    <test started-at="2022-11-06T08:05:18 EST" name="Surefire test" finished-at="2022-11-06T08:05:31 EST" duration-ms="13119">
       <class name="pim.PimTest">
-        <test-method is-config="true" signature="method()[pri:0, instance:pim.PimTest@475e586c]" started-at="2022-11-06T07:27:35 EST" name="method" finished-at="2022-11-06T07:27:40 EST" duration-ms="4789" status="PASS">
+        <test-method is-config="true" signature="method()[pri:0, instance:pim.PimTest@475e586c]" started-at="2022-11-06T08:05:18 EST" name="method" finished-at="2022-11-06T08:05:22 EST" duration-ms="4332" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
-        <test-method signature="user_fill_out_information()[pri:0, instance:pim.PimTest@475e586c]" started-at="2022-11-06T07:27:40 EST" name="user_fill_out_information" finished-at="2022-11-06T07:27:43 EST" duration-ms="3628" status="PASS">
+        <test-method signature="user_fill_out_information()[pri:0, instance:pim.PimTest@475e586c]" started-at="2022-11-06T08:05:22 EST" name="user_fill_out_information" finished-at="2022-11-06T08:05:25 EST" duration-ms="3346" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_fill_out_information -->
-        <test-method is-config="true" signature="method()[pri:0, instance:pim.PimTest@475e586c]" started-at="2022-11-06T07:27:43 EST" name="method" finished-at="2022-11-06T07:27:47 EST" duration-ms="3801" status="PASS">
+        <test-method is-config="true" signature="method()[pri:0, instance:pim.PimTest@475e586c]" started-at="2022-11-06T08:05:25 EST" name="method" finished-at="2022-11-06T08:05:28 EST" duration-ms="3054" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
-        <test-method signature="user_verify_employee_id_is_not_empty()[pri:0, instance:pim.PimTest@475e586c]" started-at="2022-11-06T07:27:47 EST" name="user_verify_employee_id_is_not_empty" finished-at="2022-11-06T07:27:50 EST" duration-ms="2975" status="PASS">
+        <test-method signature="user_verify_employee_id_is_not_empty()[pri:0, instance:pim.PimTest@475e586c]" started-at="2022-11-06T08:05:28 EST" name="user_verify_employee_id_is_not_empty" finished-at="2022-11-06T08:05:31 EST" duration-ms="2355" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_verify_employee_id_is_not_empty -->
