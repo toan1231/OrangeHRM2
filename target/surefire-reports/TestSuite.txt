@@ -1,0 +1,37 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 9.755 s <<< FAILURE! - in TestSuite
+pim.PimTest.method  Time elapsed: 6.121 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited normally.
+  (chrome not reachable)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CHAUTHAI', ip: '192.168.1.12', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x005AACD3+2075859]
+	Ordinal0 [0x0053EE61+1633889]
+	Ordinal0 [0x0043B7BD+571325]
+	Ordinal0 [0x0045AA93+699027]
+	Ordinal0 [0x00456BE9+682985]
+	Ordinal0 [0x0048DBD3+908243]
+	Ordinal0 [0x0048D6AA+906922]
+	Ordinal0 [0x00487136+880950]
+	Ordinal0 [0x0045FEFD+720637]
+	Ordinal0 [0x00460F3F+724799]
+	GetHandleVerifier [0x0085EED2+2769538]
+	GetHandleVerifier [0x00850D95+2711877]
+	GetHandleVerifier [0x0063A03A+521194]
+	GetHandleVerifier [0x00638DA0+516432]
+	Ordinal0 [0x0054682C+1665068]
+	Ordinal0 [0x0054B128+1683752]
+	Ordinal0 [0x0054B215+1683989]
+	Ordinal0 [0x00556484+1729668]
+	BaseThreadInitThunk [0x76176739+25]
+	RtlGetFullPathName_UEx [0x77178FD2+1218]
+	RtlGetFullPathName_UEx [0x77178F9D+1165]
+
+	at pim.PimTest.method(PimTest.java:23)
+
