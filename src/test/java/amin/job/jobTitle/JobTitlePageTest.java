@@ -5,6 +5,7 @@ import amin.AdminPage;
 import orangeHRMLoginPage.OrangeHRMLoginPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.*;
 
 public class JobTitlePageTest {
@@ -58,6 +59,10 @@ public class JobTitlePageTest {
         adminPage.adminButton.click();
         adminPage.jobButton.click();
         adminPage.jobTitleButton.click();
+       boolean isDisplay= adminPage.footerBottomPage.isDisplayed();
+        Assert.assertTrue(isDisplay);
+
+
         Thread.sleep(5000);
 
     }

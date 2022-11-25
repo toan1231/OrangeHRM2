@@ -17,4 +17,6 @@ public class AdminPage {
     public WebElement jobButton;
     @FindBy(xpath = "//*[text()='Job Titles']")
     public WebElement jobTitleButton;
+    @FindBy(css = "#footer")
+    public WebElement footerBottomPage;
 }
